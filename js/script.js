@@ -8,6 +8,7 @@ var menu = document.querySelector('.main-nav__list');
 
 menuButton.onclick = function() {
   menu.classList.toggle('MobileMenu--active');
+  menuButton.classList.toggle('nav-toggle__active');
 };
 
 openPopupButton.addEventListener('click', function(evt) {

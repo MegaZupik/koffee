@@ -31,7 +31,7 @@ a {
   background-color: #222937;
   position: fixed;
   top: 40px;
-  left: 100px;
+  left: 50px;
   display: none;
 }
 @media (max-width: 768px) {
@@ -47,6 +47,24 @@ a {
 }
 .nav-toggle span:nth-child(2) {
   margin: 5px 0;
+}
+.nav-toggle__active {
+  background-size: 30px 30px;
+  height: 30px;
+  width: 30px;
+}
+.nav-toggle__active span:nth-child(1) {
+  transform: rotate(45deg);
+  width: 42px;
+  position: relative;
+  top: 3px;
+}
+.nav-toggle__active span:nth-child(2) {
+  display: none;
+}
+.nav-toggle__active span:nth-child(3) {
+  transform: rotate(-45deg);
+  width: 42px;
 }
 .main-nav__list {
   list-style: none;
@@ -75,7 +93,7 @@ a {
   display: block;
   position: fixed;
   top: 40px;
-  left: 135px;
+  left: 88px;
   background-color: #1e283b;
   width: 250px;
   border: 1px solid black;
