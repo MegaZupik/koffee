@@ -298,6 +298,8 @@ a {
   padding: 0;
   margin: 0;
   display: block;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
 }
 .galery__image {
   align-items: center;
@@ -311,6 +313,8 @@ a {
   transform: rotateY(180deg);
 }
 .galery__description {
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
   display: block;
   position: absolute;
   left: 0;
