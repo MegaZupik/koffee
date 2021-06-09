@@ -97,6 +97,7 @@ a {
   background-color: #1e283b;
   width: 250px;
   border: 1px solid black;
+  z-index: 3;
 }
 @media (min-width: 768px) {
   .MobileMenu--active {
